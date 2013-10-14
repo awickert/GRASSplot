@@ -8,3 +8,14 @@ Please leave feedback here, or e-mail the developer (wickert@colorado.edu)
 Hope you enjoy!
 
 Andy Wickert
+
+
+======
+
+INSTRUCTIONS
+
+1. Download this entire directory to your computer.
+2. Start a GRASS GIS session
+3. Change the "NorthAmericaExample.py" script to suit your needs
+4. Run the script - I prefer to do this in iPython, running in the terminal window through which I open GRASS GIS to help my debugging
+5. Make improvements, give me feedback, show me your favorite maps, ...!
