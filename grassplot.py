@@ -109,7 +109,7 @@ class grassplot(object):
     resolution is in dpi, so is a function of figsize
     """
     # Get maximum resolution
-    raster_region = self.parse_region( grass.read_command('g.region', rast=self.raster_grid_name, flags='p') )#, flags='up') ) "u" doesn't change the region, so "up" just prints it out
+    raster_region = grass.region()
     rast_nlats = float(raster_region['rows'])
     rast_nlons = float(raster_region['cols'])
     self.nlats = int(np.min((rast_nlats, self.figsize[0]*self.resolution)))
